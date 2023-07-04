@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../widgets/Header';
 import Hero from '../widgets/Hero';
-import Feature from '../widgets/features';
+import Features from '../widgets/Features';
 
 function Index() {
   return (
@@ -9,7 +9,7 @@ function Index() {
     <Header />
     <main className="mt-16">
         <Hero />
-        <Feature />
+        <Features />
     </main>
   </div>)
 }
