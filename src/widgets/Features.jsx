@@ -1,4 +1,4 @@
-export default function Features() {
+function Feature() {
   return (
     <section>
       <div className="mt-24 max-w-6xl mx-auto px-4 sm:px-6">
@@ -57,3 +57,5 @@ export default function Features() {
     </section>
   )
 }
+
+export default Feature
