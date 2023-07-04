@@ -2,7 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        inter: ['var(--font-inter)', 'sans-serif'],
+        'architects-daughter': ['var(--font-architects-daughter)', 'sans-serif']
+    }},
   },
   plugins: [],
 }

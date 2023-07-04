@@ -7,7 +7,7 @@ function Hero() {
     
   return (
     <div className="flex flex-row">
-        <div class="basis-3/5 md:basis-5/7 flex-shrink-0 gap-y-6 md:gap-y-8">
+        <div className="basis-3/5 md:basis-5/7 flex-shrink-0 gap-y-6 md:gap-y-8">
             <p className='w-[90%] py-4 text-5xl sm:text-6xl md:text-6xl lg:text-[75px] md:w-4/5 font-black leading-tight md:leading-tight'>
                 尝试努力让世界变得更加美好。
             </p>
@@ -28,16 +28,16 @@ function Hero() {
         </div>
 
         <div className="basis-2/5 md:basis-2/7 flex-nowrap">
-            <div id="codeblock">
+            <div id="codeblock" className='py-6 md:py-4'>
                 {/* 代码框标题栏（title bar） */}
-                <div class="fakeMenu">
-                    <div class="fakeButtons fakeClose"></div>
-                    <div class="fakeButtons fakeMinimize"></div>
-                    <div class="fakeButtons fakeZoom"></div>
+                <div className="fakeMenu">
+                    <div className="fakeButtons fakeClose"></div>
+                    <div className="fakeButtons fakeMinimize"></div>
+                    <div className="fakeButtons fakeZoom"></div>
                 </div>
 
                 {/* 代码框工作区域（clientarea） */}
-                <div class="fakeScreen">
+                <div className="fakeScreen">
                 <div className=' text-white text-2xl leading-relaxed md:leading-relaxed'>
                     <TypeIt
                         getBeforeInit={(instance) => {
