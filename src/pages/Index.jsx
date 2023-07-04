@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from '../widgets/Header';
 import Hero from '../widgets/Hero';
-import "./css/backgrounds-style.css"
 
 function Index() {
   return (
